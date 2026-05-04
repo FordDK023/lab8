@@ -1,0 +1,22 @@
+{
+  "name": "supermarket-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "mysql2": "^3.22.3",
+    "node": "^24.15.0",
+    "req-flash": "^0.0.3"
+  }
+}

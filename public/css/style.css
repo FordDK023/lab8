@@ -1,0 +1,123 @@
+body {
+    background-color: #eef2f3;
+    color: #263238;
+}
+
+.friend-navbar {
+    background-color: #0f3d3e;
+    padding: 18px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav-item-link {
+    color: #dbeafe;
+    text-decoration: none;
+    margin-right: 18px;
+    font-weight: 500;
+}
+
+.nav-item-link:hover {
+    color: #ffffff;
+}
+
+.top-title {
+    background-color: #ffffff;
+    border-left: 6px solid #198754;
+    padding: 22px 26px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-title h2 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.top-title p {
+    margin: 0;
+    color: #6c757d;
+}
+
+.stock-table-box {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead {
+    background-color: #198754;
+    color: #ffffff;
+}
+
+.table thead th {
+    padding: 16px;
+    font-size: 15px;
+}
+
+.table tbody td {
+    padding: 15px;
+}
+
+.table tbody tr:hover {
+    background-color: #f3fbf6;
+}
+
+.table-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.badge-stock {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.badge-in {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.badge-out {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.btn-edit:hover {
+    background-color: #e0a800;
+}
+
+.btn-delete:hover {
+    background-color: #bb2d3b;
+    color: #fff;
+}
